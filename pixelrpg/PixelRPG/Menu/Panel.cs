@@ -14,6 +14,10 @@ namespace PixelRPG.Menu
             set { _dimensions = value; }
         }
 
+        /// <summary>
+        /// Panel constructor
+        /// </summary>
+        /// <param name="dimensions"></param>
         public Panel(Rectangle dimensions)
         {
             this.dimensions = dimensions;
